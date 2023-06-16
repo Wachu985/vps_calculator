@@ -31,7 +31,7 @@ class MainApp extends StatelessWidget {
           background: Container(color: const Color(0xFFF5F5F5))),
       theme: context.watch<VpsBloc>().state.theme,
       debugShowCheckedModeBanner: false,
-      title: 'VPS Calculator',
+      title: 'Calculadora VPS',
       home: Scaffold(
         floatingActionButton: FloatingActionButton(
             onPressed: () {
